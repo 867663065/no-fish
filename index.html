@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="GB 2312">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Fish</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+    <div class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="#director" class="nav-link" link-target="director">作者</a></li>
+                <li><a href="#study" class="nav-link" link-target="study">学习资料</a></li>
+                <li><a href="#my-script" class="nav-link" link-target="my-script">自编插件</a></li>
+                <li><a href="#test" class="nav-link" link-target="test">测试</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <header>
+            <h1>欢迎来到我的网站</h1>
+        </header>
+        <main>
+            <section id="director">
+                <h2>作者</h2>
+                <p>这是作者的信息。</p>
+            </section>
+            <section id="study">
+                <h2>学习资料</h2>
+                <p>这是学习资料。</p>
+            </section>
+            <section id="my-script">
+                <h2>自编插件</h2>
+                <p>未开发。</p>
+            </section>
+            <section id="test">
+                <h2>测试</h2>
+                <form action="/submit-message" method="post">
+                    <label for="imageUpload" class="file-input">选择图片文件</label>
+                    <input type="file" id="imageUpload" name="imageFile" accept="image/*" required>
+                    <button type="submit" class="submit-button">上传图片</button>
+                </form>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
